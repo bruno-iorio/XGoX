@@ -54,5 +54,5 @@ Minimal instructions are:
 # Colaboration:
 | NAME | GIT USER |
 |--------------|----------------|
-| Adam neveaux |  adamneveux    |
+| Adam neveux |  adamneveux    |
 | Bruno Iorio  |  bruno-iorio   |
