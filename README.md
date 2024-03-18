@@ -51,8 +51,8 @@ Minimal instructions are:
 - Create different folders for different programming languages (Name of the folder could be "cpp", for example)
 - DO NOT COPY code from other repos (use "git submodule" - [add reference link])
 
-Colaboration:
-
-| NAME |GIT USER|
+# Colaboration:
+| NAME | GIT USER |
+|--------------|----------------|
 | Adam neveaux |  adamneveux    |
 | Bruno Iorio  |  bruno-iorio   |
