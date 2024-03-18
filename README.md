@@ -1,1 +1,2 @@
-# XGoX
+# GoX
+Go bot

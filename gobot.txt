@@ -1,0 +1,5 @@
+Go bot
+Zeroth, get sgf data and process 
+First, game mechanics
+second, simple bot
+third, low implementation of machine learning algorithm
