@@ -2,8 +2,8 @@
 The Project will be divided into 4 subparts:
 
 # 1) Develop game mechanics.
----------
 
+___________
 This includes: 
 
  - Program a basic board;
@@ -12,7 +12,8 @@ This includes:
  - Optimize it when all is done (or after).
 
 # 2) Create a simple(no Machine Learning Bot).
----------
+
+__________
 Primarily, the idea is to make a simple bot that uses only brute force to compute the next move.
 And sugestions, and new ideas are very welcomed.
 
@@ -22,12 +23,14 @@ This part includes:
  - integrate the bot with the game concept.
 
 # 3) Find a good database.
----------
+
+__________
 We have to find a good database and also to find a way of converting it into inputs that are
 compatible with our models.
 
 # 4) Machine Learning.
----------
+
+__________
 This includes:
 
 - Deciding which methods to use: Supervised or unsupervised / Reinforced Learning
@@ -36,8 +39,7 @@ This includes:
 - creating an effient model(very vague, but sets up a minimal goal)
 
 # How we are going to work:
----------
-
+___________
 This is a matter to be discussed with the group.
 But at the beginning, we may use a pull-request/peer review system.
 Minimal instructions are:
@@ -51,8 +53,9 @@ Minimal instructions are:
 
 Colaboration:
 
-________________________________
+|______________|________________|
 | Adam neveaux |  adamneveux    |
+|______________|________________|
 | Bruno Iorio  |  bruno-iorio   |
-________________________________
+|______________|________________|
 
