@@ -1,4 +1,4 @@
-all: board sgfparser
+all: board
 
 board: board.o
 	gcc -o board board.o
