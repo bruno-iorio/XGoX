@@ -15,7 +15,11 @@ typedef struct board{
 
 int play_move(board*, int,int,int);
 int play_match(board*);
+int capture_group(board*, int*, int*, int);
 void print_board(board*);
 board* create_board();
-int find_group_liberties(board*,int*,int*,int,int,int);
+void print_grid(int**, int);
+int compare_boards(int**,int**, int);
+void copy_board(int**,int**,int);
+int find_group_liberties(board*,int*,int*,int,int,int*);
 #endif // BOARD_H
