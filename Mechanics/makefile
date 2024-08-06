@@ -1,17 +1,17 @@
-all: board
-
-board: board.o
-	gcc -o board board.o
+all: sgf_player board.o sgfparser.o
 
 board.o: board.c
 	gcc -c board.c
 
-sgfparser: sgfparser.o
-	gcc -o sgfparser sgfparser.o
-
 sgfparser.o: sgfparser.c
 	gcc -c sgfparser.c
 	
-remove: 
-	rm sgfparser sgfparser.o board.o board
+sgf_player.o: sgf_player.c
+	gcc -c sgf_player.c
 
+sgf_player: sgf_player.o sgfparser.o board.o
+	gcc -o sgf_player sgf_player.o sgfparser.o board.o
+
+remove:
+	rm sgf_player.o sgf_player board.o sgfparser.o
+ 

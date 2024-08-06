@@ -3,45 +3,6 @@
 #include<stdlib.h>
 #include<errno.h>
 #include<string.h>
-int main(){
-
-  board* Board = create_board();
-  if(Board == NULL){
-    return 1;
-  }
-  /* Debugging session
-  play_move(Board,BLACK, 2, 3);
-  play_move(Board,BLACK, 3, 3);
-  play_move(Board,WHITE, 4, 3);
-  play_move(Board,WHITE, 1, 3);
-  play_move(Board,WHITE, 3, 2);
-  play_move(Board,WHITE, 3, 4);
-  play_move(Board,WHITE, 2, 4);
-  play_move(Board,WHITE, 2, 2);
-  print_board(Board);
-  int* x = (int*) malloc(sizeof(int)*361);
-  int* y = (int*) malloc(sizeof(int)*361);
-  int* n; *n = 0;
-  printf("%d\n",find_group_liberties(Board,x,y,2,3,n));
-  printf("n is %d\n", *n); 
-  if(find_group_liberties(Board,x,y,2,3,n)==1){
-    capture_group(Board,x,y,*n);
-  } else{ printf("not caputured yet!");}
-  print_board(Board); 
- 
-  free(x);
-  free(y);
-  */
-  play_match(Board);
-
-
-  for(int i = 0; i < BOARDSIZE; i++){
-    free(Board->grid[i]);
-  }
-  free(Board->grid);
-  free(Board);
-  return 0;
-}
 
 board* create_board(void){
   board* Board = (board*) malloc(sizeof(board*));

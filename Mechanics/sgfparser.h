@@ -1,6 +1,5 @@
 #ifndef SGFPARSER_H
 #define SGFPARSER_H
 
-void print_usage();
-
+int sgf_parser(char*,int**,int**,int*);
 #endif //SGFPARSER_h
